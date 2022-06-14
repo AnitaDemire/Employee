@@ -21,7 +21,7 @@ public class Main {
 
         Employee[] employees = new Employee[2];
         employees[0] = new Employee("Sasha", "Petrov", 30, "AQA", POSITION.JUNIOR);
-        employees[1] = new Employee("Igor", "Astakhov", 45, "QML/JS Develop", POSITION.SENIOR);
+        employees[1] = new Employee("Anna", "Nikitina", 45, "QML/JS Develop", POSITION.SENIOR);
 
         for (Employee employee : employees) {
             namePrinter.print(employee);
